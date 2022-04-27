@@ -1,0 +1,12 @@
+{
+	"name": "ls_copy_filetodb_tgt",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureSqlDatabase",
+		"typeProperties": {
+			"connectionString": "integrated security=False;encrypt=True;connection timeout=30;data source=adfconduent.database.windows.net;initial catalog=ADF_Conduent_DB;user id=niranjan",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQDdCNzcyQTc0LTU0MDUtNDlEMy1BRDgyLTg3Q0YzRENDMkQwNF84ODQ3NzBlMC1iM2IzLTRiMjQtYmNhMi1iZjQ0ZjYxNjVhNmEiDQp9"
+		}
+	}
+}
