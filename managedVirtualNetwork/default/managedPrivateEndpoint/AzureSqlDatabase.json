@@ -1,0 +1,7 @@
+{
+	"name": "AzureSqlDatabase",
+	"properties": {
+		"privateLinkResourceId": "/subscriptions/98626207-3498-4d2f-a2c0-fc5329795bfc/resourceGroups/ADF_Coduent_Dev/providers/Microsoft.Sql/servers/adfconduent",
+		"groupId": "sqlServer"
+	}
+}
